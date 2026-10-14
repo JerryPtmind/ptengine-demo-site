@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nimbus 轻雾 · 手冲咖啡器具（Ptengine 演示站）</title>
+<meta name="description" content="Nimbus 轻雾是一个虚构的手冲咖啡器具品牌，本站仅用于 Ptengine / PGA 功能演示。">
+<script src="assets/ptengine.js"></script>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="logo" href="index.html">Nimbus 轻雾</a>
+  <ul><li><a href="#products">产品</a></li><li><a href="#story">品牌故事</a></li><li><a href="#faq">常见问题</a></li><li><a href="product.html" data-track="nav_product_click">旗舰款</a></li></ul>
+</div></header>
+
+<section class="hero"><div class="wrap">
+  <h1>在家，也能冲出一杯有层次的手冲</h1>
+  <p>Nimbus 轻雾手冲套装：精准控温壶、双层滤杯与可重复使用滤纸，让每一次冲煮都稳定可复现。</p>
+  <div class="cta">
+    <a class="btn btn-primary" href="product.html" data-track="hero_cta_click">查看旗舰套装</a>
+    <a class="btn btn-ghost" href="#story" data-track="hero_secondary_click">了解品牌故事</a>
+  </div>
+</div></section>
+
+<section id="products"><div class="wrap">
+  <h2>热销产品</h2>
+  <div class="grid">
+    <div class="card"><div class="thumb"></div><h3>轻雾控温壶 Pro</h3><p>±1℃ 控温，60 分钟保温，鹅颈壶嘴出水稳定。</p><div class="price">¥ 699</div><button class="btn btn-primary" data-track="add_to_cart" data-sku="kettle-pro" data-price="699">加入购物车</button></div>
+    <div class="card"><div class="thumb"></div><h3>双层滤杯 V2</h3><p>陶瓷外层保温，不锈钢内层导流，萃取更均匀。</p><div class="price">¥ 229</div><button class="btn btn-primary" data-track="add_to_cart" data-sku="dripper-v2" data-price="229">加入购物车</button></div>
+    <div class="card"><div class="thumb"></div><h3>入门手冲三件套</h3><p>壶 + 滤杯 + 分享壶，新手一步到位。</p><div class="price">¥ 399</div><button class="btn btn-primary" data-track="add_to_cart" data-sku="starter-kit" data-price="399">加入购物车</button></div>
+  </div>
+</div></section>
+
+<section id="story"><div class="wrap">
+  <h2>为什么做 Nimbus</h2>
+  <p>我们是一群在家冲了十年咖啡的人。市面上的器具要么太贵，要么不稳定。Nimbus 想做的，是把专业吧台的可控性带回厨房，让你每一次冲煮都能复现昨天那杯好喝的味道。</p>
+  <div class="grid" style="margin-top:24px">
+    <div class="quote">「控温壶用了三个月，终于不用盯着温度计了。」<br><small>— 北京 · 林女士</small></div>
+    <div class="quote">「滤杯的出水速度很稳定，萃取时间一下就好掌握了。」<br><small>— 上海 · 周先生</small></div>
+    <div class="quote">「三件套送朋友，他第二周就回购了咖啡豆。」<br><small>— 深圳 · Ken</small></div>
+  </div>
+</div></section>
+
+<section id="faq" class="faq"><div class="wrap">
+  <h2>常见问题</h2>
+  <details data-track="faq_open"><summary>发货多久能到？</summary><p>国内 48 小时内发出，一般 2 到 4 天送达。</p></details>
+  <details data-track="faq_open"><summary>控温壶支持什么电压？</summary><p>220V 国标插头，海外用户请选择对应版本。</p></details>
+  <details data-track="faq_open"><summary>可以退换吗？</summary><p>7 天无理由退换，器具无使用痕迹即可。</p></details>
+</div></section>
+
+<section><div class="wrap">
+  <h2>订阅冲煮指南</h2>
+  <p>每两周一封，分享冲煮参数与新品消息。</p>
+  <form class="news"><input type="email" placeholder="输入邮箱" required><button class="btn btn-primary" type="submit">订阅</button></form>
+</div></section>
+
+<footer><div class="wrap">© 2026 Nimbus 轻雾（虚构品牌）· 本站仅用于 Ptengine / PGA 产品功能演示，不售卖任何商品。</div></footer>
+<div id="toast" class="toast"></div>
+<script src="assets/app.js"></script>
+</body>
+</html>
