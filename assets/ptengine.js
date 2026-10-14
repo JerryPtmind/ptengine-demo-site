@@ -1,7 +1,7 @@
-// Ptengine 安装代码：把 SID 换成测试户站点设置里的 SID，HOST 按集群选 js.ptengine.com / js.ptengine.jp / js.ptengine.cn
+// Ptengine 安装代码：把 SID 换成测试户站点设置里的 SID，HOST：dev.ptmind.com 测试区用 devjs.ptengine.com，生产按集群用 js.ptengine.com / js.ptengine.jp / js.ptengine.cn
 (function () {
-  var SID = 'REPLACE_ME';
-  var HOST = 'js.ptengine.com';
+  var SID = '5fjc1o80';
+  var HOST = 'devjs.ptengine.com';
   if (SID === 'REPLACE_ME') {
     console.warn('[demo] Ptengine SID 未配置，请编辑 assets/ptengine.js');
     return;

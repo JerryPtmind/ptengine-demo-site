@@ -8,7 +8,7 @@
 
 ## 接入 Ptengine
 
-编辑 `assets/ptengine.js`，把 `SID` 换成测试户站点设置里的 SID，`HOST` 按集群选择（js.ptengine.com / js.ptengine.jp / js.ptengine.cn）。
+编辑 `assets/ptengine.js`，把 `SID` 换成测试户站点设置里的 SID，`HOST` 按环境选择：dev.ptmind.com 测试区用 devjs.ptengine.com，生产按集群用 js.ptengine.com / js.ptengine.jp / js.ptengine.cn。
 
 ## 已埋的自定义事件
 
